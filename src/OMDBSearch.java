@@ -121,7 +121,7 @@ public class OMDBSearch {
 	 * @return query formatted
 	 */
 	public static String formatQuery(String searchString) {
-		String query = PROTOCOL + AUTHORITY + PATH + "t=" + searchString.replaceAll(" ", "+") + "&y=&plot=full&r=json";
+		String query = PROTOCOL + AUTHORITY + PATH + "t=" + searchString.replaceAll(" ", "+") + "&plot=full&r=json";
 		return query;
 	}
 	
